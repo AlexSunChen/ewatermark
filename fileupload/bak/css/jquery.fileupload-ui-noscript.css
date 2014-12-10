@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*
+ * jQuery File Upload UI Plugin NoScript CSS 1.0.0
+ * https://#
+ *
+ * Copyright 2012, SunChen	
+ * https://#
+ *
+ * Licensed under the MIT license:
+ * http://www.opensource.org/licenses/MIT
+ */
+
+.fileinput-button i,
+.fileupload-buttonbar .delete,
+.fileupload-buttonbar .toggle {
+  display: none;
+}
+.fileupload-buttonbar .download1,
+.fileupload-buttonbar .toggle2 {
+  display: none;
+}

@@ -1,0 +1,20 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script src="./jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    	$(document).ready(function(){
+			  var file = "http://127.0.0.1/blueimp-jQuery/server/php/?file=%E3%80%90%E8%90%8C%E5%9B%BE%E3%80%91by%E8%BD%AE%E5%9B%9E%EF%BC%BF207.jpg";
+		     //var jsondata = jsondata.substring(0,jsondata.lastIndexOf(','));
+		      var sub = file.split('?');
+		      var success = sub[0]+'download.php?'+sub[1];
+		      alert(success);
+		});
+      
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
